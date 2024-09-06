@@ -7,7 +7,7 @@ function generateMessage() {
     for (let i=1; i <= 3; i++) {
         message.push((Math.floor(Math.random()*7)+1));
     }
-    return `You are feeling ${feeling[message[0]]}. You should ${action[message[1]]} ${location[message[2]]}`;
+    return `You are feeling ${feeling[message[0]]}. You should ${action[message[1]]} ${location[message[2]].}`;
 }
 
 console.log(generateMessage());
