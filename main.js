@@ -1,4 +1,4 @@
-const feeling = ['happy', 'sad', 'annoyed', 'horny', 'needy', 'desperate', 'lustful', 'thirsty'];
+const feeling = ['happy', 'sad', 'annoyed', 'horny', 'needy', 'desperate', 'lustful', 'thirsty', 'ass'];
 const action = ['talk to your loved one', 'touch grass', 'relieve yourself', 'fuck your S.O', 'watch corn', 'video call your partner', 'take a nap', 'drink some holy water'];
 const location = ['on the toilet seat', 'in the garden', 'on your bed', "on your lover's couch", 'in the kitchen', 'in front of the mirror', 'on the family T.V', 'in prison'];
 
