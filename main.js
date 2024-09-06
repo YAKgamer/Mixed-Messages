@@ -3,11 +3,11 @@ const action = ['talk to your loved one', 'touch grass', 'relieve yourself', 'fu
 const location = ['on the toilet seat', 'in the garden', 'on your bed', "on your lover's couch", 'in the kitchen', 'in front of the mirror', 'on the family T.V', 'in prison'];
 
 function generateMessage() {
-    const message = [];
-    for (let i=1; i <= 3; i++) {
-        message.push((Math.floor(Math.random()*7)+1));
-    }
-    return `You are feeling ${feeling[message[0]]}. You should ${action[message[1]]} ${location[message[2]]}.`;
+    const feelingIndex = Math.floor(Math.random() * feeling.length);
+    const actionIndex = Math.floor(Math.random() * action.length);
+    const locationIndex = Math.floor(Math.random() * location.length);
+
+    return `You are feeling ${feeling[feelingIndex]}. You should ${action[actionIndex]} ${location[locationIndex]}.`;
 }
 
 console.log(generateMessage());
